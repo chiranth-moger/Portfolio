@@ -117,8 +117,8 @@
     // Check local storage for mode
     if (localStorage.getItem("theme") === "light") {
         body.classList.add("light-mode");
-        darkIcon.style.display = "none";
-        lightIcon.style.display = "inline";
+        darkIcon.style.display = "inline";
+        lightIcon.style.display = "none";
     }
 
     toggleMode.addEventListener("click", function () {
@@ -126,12 +126,12 @@
 
         if (body.classList.contains("light-mode")) {
             localStorage.setItem("theme", "light");
-            darkIcon.style.display = "none";
-            lightIcon.style.display = "inline";
-        } else {
-            localStorage.setItem("theme", "dark");
             darkIcon.style.display = "inline";
             lightIcon.style.display = "none";
+        } else {
+            localStorage.setItem("theme", "dark");
+            darkIcon.style.display = "none";
+            lightIcon.style.display = "inline";
         }
     });
 });
