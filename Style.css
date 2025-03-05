@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
-    --primary-color: #ffffff;
-    --secondary-color: #333333d7;
-    --text-color: #24252a;
-    --background-color: #f8f9fa;
-    --hover-color: rgba(0, 136, 169, 0.8);
-    --nav-bar:#edf;
-    --photo:#edf;
-   
-}
-.light-mode {
     --primary-color: #24252a; /* Blue */
     --secondary-color: #edf0f1; /* Green */
     --text-color: #edf0f1; /* Dark Gray */
@@ -17,6 +7,16 @@
     --hover-color:rgba(0, 136, 169, 0.8); /* Light Gray */
     --nav-bar: #222222;
     --photo:#ffffff;
+}
+.light-mode {
+    --primary-color: #ffffff;
+    --secondary-color: #333333d7;
+    --text-color: #24252a;
+    --background-color: #f8f9fa;
+    --hover-color: rgba(0, 136, 169, 0.8);
+    --nav-bar:#edf;
+    --photo:#edf;
+    
 }
 .nav-bar {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* X, Y, Blur, Spread, Color */
