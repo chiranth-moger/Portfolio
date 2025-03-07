@@ -1,14 +1,11 @@
 // Project.js
 const projects = [
-    {
-      
-        id: "project1",
-        title: "Home Automation",
-        description: "The system monitors indoor conditions by collecting data on harmful gases, temperature, and humidity using an ESP32 sensor, displaying real-time insights on a website. If a gas leak is detected, it promptly sends an alert, ensuring home safety.",
-        image: "https://unsplash.com/photos/a-tablet-with-smart-home-control-systema-tablet-with-smart-home-control-system-JyK97ECw4ZQ",
-        technologies: ["HTML", "CSS", "JavaScript"]
-      
-      
+   {
+      id: "project1",
+      title: "Home Automation",
+      description: "The system monitors indoor conditions by collecting data on harmful gases, temperature, and humidity using an ESP32 sensor, displaying real-time insights on a website. If a gas leak is detected, it promptly sends an alert, ensuring home safety.",
+      image: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80",
+      technologies: ["HTML", "CSS", "JavaScript","sensors"]
     },
     {
       id: "project2",
