@@ -115,7 +115,6 @@ document.addEventListener('DOMContentLoaded', function () {
       modalTitle.textContent = project.title;
       modalImage.src = project.image;
       modalImage.alt = project.title;
-  
 
       modalTechnologies.innerHTML = project.technologies.map(tech => `<span class="badge badge-${tech}">${tech}</span>`).join('');
 
